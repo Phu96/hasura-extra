@@ -9,10 +9,10 @@ Hasura Extra là bộ thư viện PHP phục vụ cho việc xây dựng web API
 
 ## Tính năng
 
-+ Tích hợp với [GraphQLite](https://graphqlite.thecodingmachine.io/) để xây dựng Hasura [remote schema](https://hasura.io/docs/latest/graphql/core/remote-schemas/index.html) phục vụ cho việc handle business logic.
++ Tích hợp với [GraphQLite](https://graphqlite.thecodingmachine.io/) để xây dựng Hasura [remote schema](https://hasura.io/docs/latest/graphql/core/remote-schemas/index.html) phục vụ cho việc xử lí application business logic.
 + Quản lý Hasura metadata.
-+ Điều phối sự kiện nhận được từ Hasura ([events triggered](https://hasura.io/docs/latest/graphql/core/event-triggers/index.html)).
-+ Authentication hook ([webhooks auth mode](https://hasura.io/docs/latest/graphql/core/auth/authentication/webhook.html)).
++ Điều phối sự kiện nhận được từ Hasura ([events triggers](https://hasura.io/docs/latest/graphql/core/event-triggers/index.html)).
++ Xác thực users thông qua webhook ([webhooks auth mode](https://hasura.io/docs/latest/graphql/core/auth/authentication/webhook.html)).
 + Tích hợp với [Sailor](https://github.com/spawnia/sailor) typesafe graphql client để tương tác với Hasura graphql api.
 + Cung cấp bundle dành cho [Symfony](https://symfony.com).
 
